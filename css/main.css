@@ -44,18 +44,86 @@ nav a#orangetext {
   color: orange;
 }
 
-#ourservices {
+/* first section */
+#ourSevices {
   background-image: url(https://www.optimal-partners.com/site_images/ourServicesHeader.jpg);
   background-position: center;
   padding: 70px 0px;
   width: 100%;
 }
-div h1 {
+
+h1 {
   color: white;
   font-size: 50px;
   padding: 0px;
   margin: 0px;
   text-align: center;
-  font-family: BrandonText-Light;
   text-shadow: rgb(0 0 0) 1px 2px 2px;
+}
+
+/* second section */
+h2 {
+  font-size: 34px;
+  color: #0a465b;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 50px;
+  font-weight: 300;
+}
+
+p {
+  color: #7f969e;
+  font-size: 17px;
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+  padding: 10px 0px 60px 0px;
+  line-height: 1.4;
+  height: 100%;
+}
+
+p span {
+  color: orange;
+}
+
+/* third section */
+#thirdSecs {
+  background-color: #EDEff3;
+  padding: 50px 0 70px;
+}
+
+.mainBox {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 50px 10px 50px;
+}
+
+.box {
+  padding: 20px 50px 20px 50px;
+}
+
+.box h2 {
+  30px;
+  padding: 25px 20px 25px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 0px;
+  font-variant: small-caps;
+  background-color: #107698;
+  width: 100%;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  color: #fff;
+  min-height: 110px;
+}
+
+.box p {
+  padding: 20px 25px;
+  font-size: 16px;
+  line-height: 1.4;
+  box-sizing: border-box;
+  box-shadow: 2px 5px 5px #cdcdcd;
+  background-color: white;
 }
