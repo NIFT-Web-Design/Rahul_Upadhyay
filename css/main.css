@@ -66,7 +66,6 @@ h2 {
   font-size: 34px;
   color: #0a465b;
   text-align: center;
-  margin-bottom: 30px;
   padding-top: 50px;
   font-weight: 300;
 }
@@ -77,9 +76,9 @@ p {
   text-align: center;
   max-width: 900px;
   margin: auto;
-  padding: 10px 0px 60px 0px;
+  padding: 30px 0px 60px 0px;
   line-height: 1.4;
-  height: 100%;
+
 }
 
 p span {
@@ -97,16 +96,25 @@ p span {
   flex-flow: row;
   justify-content: space-around;
   align-items: center;
-  padding: 10px 50px 10px 50px;
+  padding: 10px 150px 10px 150px;
 }
 
 .box {
-  padding: 20px 50px 20px 50px;
+  max-width: 263px;
+height: 340px;
+box-sizing: border-box;
+
+margin-top: 50px;
+margin-right: 32px;
+margin-bottom: 30px;
+background: #fff;
+border: 0px solid #dedede;
+box-shadow: 0px 3px 8px 0px rgb(0 0 0 / 20%);
 }
 
 .box h2 {
   30px;
-  padding: 25px 20px 25px;
+  padding: 15px 20px 15px;
   box-sizing: border-box;
   text-align: center;
   margin-top: 0px;
@@ -117,13 +125,133 @@ p span {
   border-top-right-radius: 2px;
   color: #fff;
   min-height: 110px;
+  font-size: 30px;
 }
 
 .box p {
   padding: 20px 25px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.4;
   box-sizing: border-box;
   box-shadow: 2px 5px 5px #cdcdcd;
   background-color: white;
+  height: 240px;
+}
+
+.seprate {
+  width: 100%;
+  background-color: #d1d1d0;
+  height: 5px;
+  box-shadow: 0px -2px 5px 0px rgb(0 0 0 / 30%);
+
+
+}
+
+#it {
+  padding: 35px 20px 42px 20px;
+}
+
+#XxxHhh {
+  padding-top: 0px;
+}
+
+
+/* SectionFour */
+
+.SecFourMain {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin: 0px 120px;
+  padding: 20px 0px 20px 0px;
+}
+
+h3 {
+  font-size: 20px;
+    color: #0a465b;
+    border-bottom: 2px #FDB530 solid;
+    text-align: center;
+    margin-top: 0px
+;
+    font-variant: small-caps;
+    width: 60%;
+    margin: auto;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-weight: bold;
+}
+
+.secFour p {
+  padding: 15px;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0px 40px;
+
+}
+
+/* Section five */
+
+#sectionFive {
+  background-color: #EDEff3;
+    padding: 50px 0 50px;
+    width: 100%;
+
+}
+
+.SecFiveMain {
+  display: inline-flex;
+flex-flow: row;
+justify-content: space-around;
+padding: 0px 150px 0px 150px
+}
+
+.SecFivebox {
+
+box-sizing: border-box;
+
+margin-top: 50px;
+margin-right: 32px;
+margin-bottom: 30px;
+margin-left: 32px;
+/* background: #fff; */
+border: 0px solid #dedede;
+/* box-shadow: 0px 3px 8px 0px rgb(0 0 0 / 20%); */
+}
+
+
+
+.SecFivebox h2 {
+  30px;
+  padding: 24px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 0px;
+  font-variant: small-caps;
+  background-color: #107698;
+  width: 100%;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  color: #fff;
+
+  font-size: 25px;
+
+
+}
+
+.SecFivebox p {
+  background-color: white;
+  box-shadow: 0px 3px 8px 0px rgb(0 0 0 / 20%);
+  font-size: 14px;
+  padding: 20px 25px;
+
+      display: inline-block;
+      line-height: 1.6;
+}
+
+.Secfive p {
+  padding: 32px 0px 24px 0px;
+}
+
+.Secfive h2 {
+  padding: 8px 0px 0px 0px;
 }
