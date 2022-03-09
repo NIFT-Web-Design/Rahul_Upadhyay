@@ -1,0 +1,136 @@
+body{font-family: 'Spartan', sans-serif;
+  font-size: 16PX;
+  font-weight: 400;
+}
+
+
+#mePic {
+  height: 140px;
+  margin-left: 100px;
+  margin-top: 0px;
+
+}
+
+header {
+  align-items: center;
+}
+
+
+header div {
+  height: 60px;
+  width: 600px;
+  color: white;
+  display: inline-flex;
+  flex-flow: row;
+  margin-left: 715PX;
+  background-color: #414042;
+  justify-content: space-around;
+  align-items: center;
+  vertical-align: top;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  transition: .2s;
+  text-transform: uppercase;
+font-size: 14px;
+}
+
+nav a:hover{
+  color: #BCBEC0;
+}
+
+p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #414642;
+  line-height:normal;
+}
+
+h1 {
+  color: #1e1e1e;
+  font-weight: 1000;
+  font-size: 24px;
+  margin-left: 100px;
+  max-width: 300px;
+  display: inline-block;
+
+}
+
+#grey {
+color: #6d6e71;
+font-weight: 800;
+}
+
+h2 {
+  color: #58595b;
+  font-weight: 200;
+  margin-bottom: 24px;
+
+}
+
+.Education {
+margin-left: 250px;
+margin-top: 30px;
+  font-size: 18px;
+  }
+
+#bio {
+font-size: 16px;
+}
+.bioSec {
+  display: inline-flex;
+  flex-flow: row;
+  justify-content:
+}
+
+/* second secrtion */
+
+#light {
+  font-weight: 300;
+}
+.secTwo {
+  margin-top: 120px;
+}
+
+.MainWork {
+  display: inline-block;
+  margin-left: 100px;
+}
+.workExp {
+  margin-bottom: 24px;
+}
+
+h3 {
+  color: #414042;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.para {
+  color: #6d6e71;
+  margin-bottom: 8px;
+}
+
+/* third section */
+
+.skillsTools {
+  display: inline-block;
+  margin-left: 600px;
+}
+
+.skills {
+  margin-bottom: 84px;
+}
+
+ /* 4th sec */
+
+.training {
+  margin-top: 24px;
+}
+.lastSec {
+  margin-left: 100px;
+  margin-bottom: 24px;
+}
