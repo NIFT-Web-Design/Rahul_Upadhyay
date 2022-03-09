@@ -8,11 +8,18 @@ body{font-family: 'Spartan', sans-serif;
   height: 140px;
   margin-left: 100px;
   margin-top: 0px;
+  display: flex;
+
 
 }
 
 header {
-  align-items: center;
+  /* align-items: center; */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+
 }
 
 
@@ -22,7 +29,7 @@ header div {
   color: white;
   display: inline-flex;
   flex-flow: row;
-  margin-left: 715PX;
+  margin-left: 675PX;
   background-color: #414042;
   justify-content: space-around;
   align-items: center;
