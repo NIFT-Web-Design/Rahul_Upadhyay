@@ -1,13 +1,63 @@
-font-family: 'Playfair Display', serif;
-font-family: 'Montserrat', sans-serif;
+/* font-family: 'Playfair Display', serif;
+font-family: 'Montserrat', sans-serif; */
 
 
-#header{
+
+header {
+  background-color: #D3D3D3;
+  padding: 8px;
+  align-items: baseline;
+}
+
+header img {
+  padding: 6px 60px;
+}
+
+nav {
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  /* padding: 16px; */
+  margin: 5px 0px 2px 0px
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #555555;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: all .2s;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav a:hover {
+  color: #C62828;
+  font-weight: 700;
+}
+
+.navDiv {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+#logo {
+  position: absolute;
+  width: 104px;
+  height: 40px;
+  left: 70px;
+  top: 28px;
+}
+/* #header{
   background-color: #054263;
   padding: 16px 0px;
   justify-content: space-between;
   display: flex;
-  align-items: center;
+  align-items: center; */
 }
 /* header{
   background-color: #B2DFDB;
@@ -54,7 +104,7 @@ p {
 }
 
 .secx0 {
-  background-color: #E5FFFF;
+  /* background-color: #E5FFFF; */
   padding-top: 32px;
   padding-bottom: 64px;
 }
@@ -88,7 +138,7 @@ button {
 } */
 .btn {
   display: inline-block;
-  background-color: #C62828;
+  background-color: #8E0000;
   color: #ffffff;
   padding: 8px 30px;
   margin: 30px 0;
@@ -119,7 +169,7 @@ button {
 }
 
 .secx1 {
-  /* background-color: #B2DFDB; */
+  background-color: #D3D3D3;
 }
 
 #unh2 {
@@ -144,12 +194,22 @@ button {
   margin-right: 480px;
   margin-top: 48px;
   margin-bottom: 48px;
+  justify-content: center;
 }
 
 .scroll {
   max-width: 48px;
   max-height: 48px;
 }
+
+.twoThree {
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  max-width: 420px;
+  max-height: 76px;
+  margin-bottom: 104px;
+  /* display: flex;
+  justify-content: center;
+} */ }
 
 #fusetext {
   font-size: 36px;
@@ -180,7 +240,7 @@ button {
 #bestseller {
   color: #FF5F52;
   text-decoration: none;
-  background-color: #E5FFFF;
+  background-color: #dbdbdb;
   border-radius: 60px;
   /* margin-left: 32px;
   margin-right: 32px; */
@@ -206,7 +266,7 @@ button {
 #itemParis {
   font-size: 32px;
   font-weight: bolder;
-  background-color: #B2DFDB;
+  background-color: #8E0000;
   color: #fff;
   border-radius: 60px;
   font-family: 'Montserrat', sans-serif;
@@ -219,4 +279,70 @@ button {
   justify-content: center;
   margin-top: 72px;
   margin-bottom: 72px;
+}
+
+
+
+/* footer  */
+footer {
+  width: 100%;
+  padding-top: : 40px;
+  background-color: white;
+  color: #555555;
+  /* text-align: center; */
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.footerIcon {
+  display: flex;
+  flex-flow: row;
+  /* flex-basis: auto; */
+  /* flex-flow: row; */
+  justify-content: space-around;
+  margin-top: 64px;
+}
+
+footer section div {
+  display: inline-block;
+  line-height: 1.4;
+}
+
+.footerPicn {
+  max-width: 560px;
+  max-height: 112px;
+}
+
+.footerPic {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.footerText {
+  margin-top: 64px;
+}
+
+.social {
+  display: flex;
+  flex-flow: row;
+justify-content: space-between;
+margin: 64px;
+padding-top: 16px;
+}
+
+.whole {
+  justify-content: space-around;
+  padding-left: 306px;
+margin-top: 8px;
+}
+
+.Copyright {
+  display: block;
+  background-color: #d8d8d8;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 32px;
+  color: #000000;
+  /* color: #55555; */
 }
